@@ -17,6 +17,11 @@ export const WorkWrapper = styled.section`
     justify-content: center;
     gap: 2rem;
   }
+
+  a {
+    color: #f8fafc;
+    text-decoration: none;
+  }
 `;
 
 export const Card = styled.div`

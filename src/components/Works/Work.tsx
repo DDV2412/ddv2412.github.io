@@ -18,7 +18,7 @@ const Work = () => {
           </p>
         </Card>
 
-        <h1>Other Projects</h1>
+        <h1 style={{ margin: "2rem 0" }}>Other Projects</h1>
         <section>
           <Card>
             <h3>Website Blog</h3>
@@ -37,7 +37,12 @@ const Work = () => {
           </Card>
         </section>
 
-        <a href="https://github.com/DDV2412?tab=repositories">More on GitHub</a>
+        <a
+          style={{ margin: "1rem 0" }}
+          href="https://github.com/DDV2412?tab=repositories"
+        >
+          More on GitHub
+        </a>
       </WorkWrapper>
     </>
   );
